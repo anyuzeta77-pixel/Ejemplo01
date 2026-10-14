@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jugando con un poco de JS</title>
+    </head>
+
+    <body>
+
+        <p>
+            Este es un ejemplo para poder modificar el contenido de una tabla usando js
+            <br>Paso 1. Creamos la definicion inicial de la tabla para ello usamos el tag de tabla &lt;table&gt; con las siguientes caracteristicas:
+            <ul>
+                <li>id="table01" -> le asigamos un id para poder acceder al elemento</li>
+                <li>width="100%" -> le asigamos un ancho de 100%</li>
+                <li>Agregamos los encabezados/headers con el tag &lt;th&gt;</li>
+            </ul>
+        </p>
+        <table id="tabla01" width="100%" border="1">
+            <tr>
+                <th>id</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Telefono</th>
+            </tr>
+        </table>
+        <button onclick="agregarFila()">Agregar fila</button>
+        
+        <script src="./resources/js/scriptjs.js"></script>
+    </body>
+</html>
